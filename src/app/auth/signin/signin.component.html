@@ -1,0 +1,22 @@
+<div class="col-sm-8 col-sm-offset-2">
+  <div *ngIf="!authStatus">
+    <h2>Connexion</h2>
+    <form [formGroup]="signInForm" (ngSubmit)="onSubmitForm()">
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email"
+                formControlName="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input type="password" class="form-control" id="password"
+                formControlName="password" required>
+      </div>
+  
+      <button type="submit" class="btn btn-default" [disabled]="signInForm.invalid" >Connecter</button>
+  
+    </form>
+    <p class="text-danger">{{errorMessage}}</p>
+  </div>
+</div>
