@@ -2,10 +2,6 @@
 
 un web component est un partie js qui peut fonctionner en autonomie dans une appli
 
-## Angular et les Composants Web
-
-Section 2, session 13
-
 ## C'est quoi, les Web Components ?
 
 Les Web Components désignent un standard qui permet aux développeurs de créer des sections complétement autonomes au sein de leurs pages web. On peut par exemple créer un composant web qui gère l'affichage d'articles dans notre application: ce composant web fonctionnera indépendamment du reste de la page, il possèdera son propre code HTML, son propre code CSS et son propre code JavaScript, encapsulé dans le composant web. Il faudra ensuite insérer ce composant web dans la page principale de notre application pour indiquer que, à tel endroit, nous voulons afficher des articles grâce à ce composant web.
