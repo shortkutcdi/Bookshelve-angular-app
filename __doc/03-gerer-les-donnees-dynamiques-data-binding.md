@@ -24,18 +24,18 @@ communication à double sens : on parle donc de "two-way binding".
 
 ## String interpolation ``{{}}``
 
-ts->html (typescript (module) vers html (template))
+ts->html 
 
 L'interpolation est la manière la plus basique d'émettre des données issues de votre code TypeScript.
 
 Imaginez une application qui vérifie l'état de vos appareils électriques à la maison pour voir
 s'ils sont allumés ou non.  Créez maintenant un nouveau component  **AppareilComponent**  avec la commande suivante :
 
-    ng generate component appareil
+    $ ng generate component appareil
 
 abreviation
 
-    ng g c appareil
+    $ ng g c appareil
 
 Ouvrez ensuite  **appareil.component.html**  (dans le nouveau dossier  appareil  créé par le CLI), supprimez le contenu,
 et entrez le code ci-dessous :
