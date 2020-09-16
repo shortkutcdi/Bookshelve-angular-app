@@ -33,7 +33,7 @@ Dans "apps", modifiez l'array  styles  comme suit :
 Maintenant vous pouvez lancer le serveur de développement local
 (il faudra le couper avec Ctrl-C et le relancer s'il tournait déjà pour que les changements prennent effet)
 
-    ng serve
+   $ ng serve
 
 ## La structure des components d'une application Angular
 
