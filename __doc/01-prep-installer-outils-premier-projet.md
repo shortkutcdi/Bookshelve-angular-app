@@ -7,7 +7,7 @@
 
 - Angular CLI
 
-    $ npm install -g @angular/cli
+    $ npm install -g @angular/cli 
 
 ## angular cli - créer projet
 
